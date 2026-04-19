@@ -1,0 +1,12 @@
+mediapipe
+opencv-python-headless
+numpy
+scikit-learn
+numpy
+joblib
+pandas
+psutil
+websockets
+mss
+playsound3
+tensorflow

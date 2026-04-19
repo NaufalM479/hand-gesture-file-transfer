@@ -1,0 +1,26 @@
+# --- Environment ---
+# Ignore the local conda environment folder
+env/
+venv/
+.env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Project Specific Data ---
+# Ignore the screenshots you capture so you don't leak your desktop
+files/*
+files/screenshot/*.png
+files/received/*.png
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- MediaPipe / Temporary ---
+*.log
