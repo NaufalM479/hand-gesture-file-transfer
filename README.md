@@ -59,6 +59,8 @@ This is a mockup implementation of Huawei's grab gesture using hand landmarks de
   ```
 - hardware
   ```
+  DEVICE: Custom Workstation PC
+  MODEL: -
   CPU: AMD Ryzen 7 3700X
   GPU: Nvidia GeForce RTX 5070 ti
   ```
@@ -72,11 +74,15 @@ This is a mockup implementation of Huawei's grab gesture using hand landmarks de
   ```
 - hardware 1
   ```
+  DEVICE: Acer Swift Go 14
+  MODEL: SFG14-73
   CPU: Intel Ultra 5 125H
   GPU: Intel Arc Graphics
   ```
 - hardware 2
   ```
+  DEVICE: Lenovo Legion 5 pro
+  MODEL: Legion 5 Pro 16ACH6
   CPU: AMD Ryzen 7 5800H
   GPU: Nvidia GeForce RTX 3050 ti laptop
   ```
