@@ -1,4 +1,4 @@
-Implementation of Huawei's hand gesture file transfer nwith MobilenetV3
+Implementation of Huawei's hand gesture file transfer with MobilenetV3
 ===
 This is a mockup implementation of Huawei's grab gesture using hand landmarks detection trained with MobileNetV3
 
