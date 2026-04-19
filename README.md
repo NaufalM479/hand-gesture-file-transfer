@@ -1,23 +1,15 @@
 Implementation of Huawei's hand gesture file transfer nwith MobilenetV3
 ===
-This is a mockup implementation of Huawei's air sharing gesture using hand landmarks detection trained with MobileNetV3
-
-<!-- Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]() -->
+This is a mockup implementation of Huawei's grab gesture using hand landmarks detection trained with MobileNetV3
 
 ## How to Setup
 - Clone the repository
   ```
-  git clone https://github.com/NaufalM479/AirShare_1D-Mobilenet_XGB.git
+  git clone https://github.com/NaufalM479/hand-gesture-file-transfer.git
   ```
 - cd to the directory 
   ```
-  cd AirShare_1D-Mobilenet_XGB
+  cd hand-gesture-file-transfer
   ```
 - Update the Submodules
   ```
@@ -37,7 +29,7 @@ This is a mockup implementation of Huawei's air sharing gesture using hand landm
   wget https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task -O Models/hand_landmarker.task
   ```
   
-## Dataset Preparation
+## Used Dataset
 | Dataset | Author | Download |
 | ---     | ---   | ---     |
 | Stone Paper Scissors Hand Landmarks Dataset | Aryan Sinha | [download](https://www.kaggle.com/datasets/aryan7781/stone-paper-scissors-hand-landmarks-dataset/data) |
@@ -111,15 +103,16 @@ patience=12
 restore_best_weights=true
 ```
 
+----------------
+## NOTE:
+- Please use the normal .py version to use this code
+- The shell code is still a WIP
+----------------
+
+
 ## Dependencies and Credits
-- [MobileNet-1D-2D-Tensorflow-Keras](https://github.com/Sakib1263/MobileNet-1D-2D-Tensorflow-Keras.git)
-- [air-share](https://github.com/amanverma-765/air-share.git)
+- [MobileNet-1D-2D-Tensorflow-Keras](https://github.com/Sakib1263/MobileNet-1D-2D-Tensorflow-Keras.git) | Used the network from this repository
+- [air-share](https://github.com/amanverma-765/air-share.git) | All of the send-receive function refers to this repository
 
-<!-- ## License -->
-
-<!-- ## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-``` -->
 
 
