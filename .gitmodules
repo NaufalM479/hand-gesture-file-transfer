@@ -1,0 +1,6 @@
+[submodule "libs/mobilenet"]
+	path = libs/mobilenet
+	url = https://github.com/Sakib1263/MobileNet-1D-2D-Tensorflow-Keras.git
+[submodule "libs/airshare"]
+	path = libs/airshare
+	url = https://github.com/amanverma-765/air-share.git
